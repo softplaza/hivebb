@@ -1,0 +1,6 @@
+core/cache/cache_bans.php
+core/cache/cache_censors.php
+core/cache/cache_config.php
+core/cache/cache_ranks.php
+core/cache/cache_stats.php
+core/cache/cache_updates.php

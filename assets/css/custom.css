@@ -1,0 +1,45 @@
+.nav-item.active {background-color: dodgerblue;}
+
+/* Bootstrap settings */
+.callout{
+  padding: .5rem;
+  /*border: 1px solid #e9ecef;*/
+  border-left-width: 0.25rem !important;
+  border-radius: 0.25rem;
+}
+.callout-success{
+  border: 1px solid #9df0c9;
+  border-left-color:#198754!important;
+  background-color: #daffe8 !important;
+  color: #03361e !important;
+}
+.callout-info{
+  border: 1px solid #b6e9f8;
+  border-left-color: #3bb3d7!important;
+  background-color: rgba(var(--bs-info-rgb), .075);
+  color: #0d6681 !important;
+}
+.callout-primary{
+  border: 1px solid #b6d4fe;
+  border-left-color:rgb(13,110,253)!important;
+  background-color: #cfe2ff !important;
+  color: #084298 !important;
+}
+.callout-secondary {
+  border: 1px solid #9da2e2;
+  border-left-color:#534f72 !important;
+  background-color: #bbbfec !important;
+  color: #463b5f !important;
+}
+.callout-warning{
+  border: 1px solid #ffed9a;
+  border-left-color:#f0ad4e!important;
+  background-color: #fff7e7 !important;
+  color: #73510d !important;
+}
+.callout-danger{
+  border: 1px solid #ebc7cd;
+  border-left-color:#d9534f!important;
+  background-color: #f9e1e5 !important;
+  color: #5e0e0e !important;
+}
