@@ -40,5 +40,5 @@ No. Instead of extensions, HiveBB uses plugins that extend the possibilities of 
 
 == Upgrade Notice ==
 
-= 1.4.5.08 =
+= 1.4.6.12 =
 Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
