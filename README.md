@@ -18,7 +18,7 @@ HiveBB Forum for Wordpress based on original PunBB. This is a fast and lightweig
 
 ## Links
 * GitHub repository: https://github.com/softplaza/hivebb
-* Support page: https://softplaza.net-forum-wordpress-plugin-punbb-fork_171.html
+* Support page: https://softplaza.net/hivebb-forum-wordpress-plugin_171.html
 * Contacts: softplazanet@gmail.com
 
 ## Images
