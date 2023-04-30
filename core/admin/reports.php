@@ -229,7 +229,7 @@ if (!ForumCore::$forum_page['new_reports'] && !ForumCore::$forum_page['old_repor
 		<h2 class="hn"><span><?php echo ForumCore::$lang['Empty reports heading'] ?></span></h2>
 	</div>
 	<div class="main-content main-frm">
-		<div class="ct-box">
+		<div class="ct-box warn-box">
 			<p><?php echo ForumCore::$lang['No reports'] ?></p>
 		</div>
 	</div>

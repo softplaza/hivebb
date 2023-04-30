@@ -175,7 +175,6 @@ p.item-select label,
 }
 .main-head h2, .main-foot h2 {
     font-size: 1.2em;
-    color: #fff !important;
     margin-bottom: 0;
 }
 .brd {
@@ -364,6 +363,9 @@ h2.main-subhead {
 }
 .ct-box .hn {
     font-size: 1.2em;
+}
+.ct-box p {
+    font-size: 1em;
 }
 .ct-box li {
     padding: 0;
@@ -1898,9 +1900,6 @@ a:focus {
     color: #cd0021;
     border-color: #cd0021
 }
-.entry-content a:visited {
-    color: #909
-}
 .entry-content a:visited:hover {
     color: #cd0021
 }
@@ -2015,21 +2014,21 @@ h4.post-title,
 }
 .admin-page .ct-set .ct-box,
 .report {
-    background: #f4f9fd
+    background: #fdfcf4;
 }
 .admin-page .warn-set .warn-box {
     background: #feffe6
 }
 .main-frm .ct-group,
 #brd-announcement {
-    background: #f4f9fd
+    background: #fdfcf4;
 }
 .main-content .info-box {
     background: #ffffe1
 }
 .main-extensions .extension,
 .main-hotfixes .hotfix {
-    background: #f4f9fd
+    background: #fdfcf4;
 }
 .main-extensions .disabled,
 .main-hotfixes .disabled {
@@ -2061,7 +2060,7 @@ ul li strong {
     color: #222
 }
 .user-box {
-    background: #f4f9fd
+    background: #fdfcf4;
 }
 .ct-box .hn {
     border-color: #dbe0e4;
@@ -2120,7 +2119,7 @@ label,
     border-color: #ddd
 }
 #brd-announcement .userbox {
-    background: #f4f9fd none repeat scroll 0 0
+    background: #fdfcf4 none repeat scroll 0 0
 }
 .main-content .main-item .hn .posted-mark {
     color: #99C
@@ -2134,12 +2133,7 @@ label,
     color: #222
 }
 #brd-navlinks {
-    border-color: #376daa
-}
-#brd-navlinks a:link,
-#brd-navlinks a:visited {
-    color: #eee;
-    text-decoration: none
+    background-color: #ffe79b;
 }
 .main-options,
 .main-options span {
@@ -2150,17 +2144,17 @@ label,
 .admin-menu,
 .main-head,
 .main-foot {
-    background-color: #0066b9;
-    background-image: -moz-linear-gradient(bottom, #2a6ab8 0, #4795cc 100%);
-    background-image: -ms-linear-gradient(bottom, #2a6ab8 0, #4795cc 100%);
-    background-image: -o-linear-gradient(bottom, #2a6ab8 0, #4795cc 100%);
-    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#2a6ab8), to(#4795cc));
-    background-image: -webkit-linear-gradient(bottom, #2a6ab8 0, #4795cc 100%);
-    background-image: linear-gradient(bottom, #2a6ab8 0, #4795cc 100%)
+    background-color: #ffe79b;
 }
 .admin-submenu {
     background: #e4e4ec;
-    border-color: #d3dae1
+    background-color: #ffe79b;
+}
+.nav-item.active {
+    background: grey;
+}
+.nav-item.active .nav-link {
+    color: #ffffff;
 }
 #brd-navlinks a:link,
 #brd-navlinks a:visited,
@@ -2168,9 +2162,7 @@ label,
 .main-menu a:visited,
 .admin-menu a:link,
 .admin-menu a:visited {
-    color: #eee;
-    text-decoration: none;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25)
+    font-weight: bold;
 }
 #brd-navlinks a:hover,
 #brd-navlinks a:active,
@@ -2186,8 +2178,8 @@ label,
 #brd-navlinks .isactive a,
 .main-menu .active a,
 .admin-menu .active a {
-    color: #fff;
-    background: #2a6ab8
+    color: #ffffff;
+    background: grey;
 }
 #brd-admod #alert a {
     color: yellow;
@@ -2204,9 +2196,8 @@ label,
 }
 .main-head,
 .main-foot {
-    color: #fff;
-    border-color: #4a86c1;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15)
+    border-color: #ffdaba;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
 }
 #brd-announcement h1 {
     border-color: #bbb
@@ -2226,14 +2217,6 @@ label,
 .content-head .hn {
     border-color: #dbe0e4;
     color: #666
-}
-.main-head a:link,
-.main-head a:visited,
-.main-foot .options a:link,
-.main-foot .options a:visited,
-.main-head .js_link,
-.main-foot .options .js_link {
-    color: #ddd
 }
 .main-head .js_link,
 .main-foot .options .js_link {

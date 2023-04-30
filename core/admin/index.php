@@ -189,6 +189,7 @@ else
 		</div>
 <?php endif; ?>
 		<div class="ct-group">
+			<img src="<?php echo FORUM_URL ?>/img/hive-bee.svg" style="width: 70px;float: left;margin-left: 30px;margin-top: 20px;">
 <?php ($hook = get_hook('ain_pre_version')) ? eval($hook) : null; ?>
 			<div class="ct-set group-item<?php echo ++ForumCore::$forum_page['item_count'] ?>">
 				<div class="ct-box">

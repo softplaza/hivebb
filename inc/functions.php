@@ -23,7 +23,7 @@ function softplaza_hivebb_load_css()
 		'hivebb-custom', 
 		HIVEBB_PLUGIN_URL . 'assets/css/custom.css',
 		false,
-		'1.1.2',
+		time(), //'1.1.2',
 		'all'
 	);
 
@@ -101,7 +101,7 @@ add_action( 'template_redirect', function ()
 			'hivebb-main', 
 			HIVEBB_PLUGIN_URL . 'core/style/Oxygen/Oxygen.min.css',
 			false,
-			'1.0.14',
+			time(), //'1.0.14',
 			'all'
 		);
 
@@ -109,7 +109,7 @@ add_action( 'template_redirect', function ()
 			'hivebb-common-min', 
 			HIVEBB_PLUGIN_URL . 'core/include/js/min/punbb.common.min.js', 
 			array(),
-			'2.0.3', 
+			time(), //'2.0.3', 
 			true
 		);
 
